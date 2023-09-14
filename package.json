@@ -1,0 +1,26 @@
+{
+  "name": "cocktail-cove",
+  "version": "1.0.0",
+  "description": "Una experiencia única de cócteles y bebidas para los amantes de la mixología y las bebidas exquisitas. Descubre nuestra selección de cócteles artesanales, bebidas destiladas y más en un ambiente relajante y sofisticado",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Didier2101/CocktailCove.git"
+  },
+  "author": "Didier Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Didier2101/CocktailCove/issues"
+  },
+  "homepage": "https://github.com/Didier2101/CocktailCove#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1",
+    "nodemon": "^3.0.1"
+  }
+}
